@@ -30,8 +30,3 @@ class TrafficLight
     end
   end
 end
-
-light = TrafficLight.new
-light.change_to(:warning)
-light.signal
-puts "Next state is #{light.next_state}."
